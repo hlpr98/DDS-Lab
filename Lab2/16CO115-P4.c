@@ -19,31 +19,31 @@ void def(int n){
 			break;
 		case 1:
 			strcpy(p,"0001");
-            break;
+            		break;
 		case 2:
 			strcpy(p,"0010");
-            break;
+		            break;
 		case 3:
 			strcpy(p,"0011");
-            break;
+        		    break;
    		case 4:
 			strcpy(p,"0100");
-break;
+			break;
 		case 5:
 			strcpy(p,"0101");
-break;
+			break;
 		case 6:
 			strcpy(p,"0110");
-break;
+			break;
 		case 7:
 			strcpy(p,"0111");
-break;
+			break;
 		case 8:
 			strcpy(p,"1000");
-break;
+			break;	
 		case 9:
 			strcpy(p,"1001");
-break;
+			break;
 	}
 
 
@@ -53,35 +53,35 @@ void def2(int n){
 	switch(n){
 		case 0:
 			strcpy(p,"0000");
-break;
+			break;
 		case 1:
 			strcpy(p,"0001");
-break;
+			break;
 		case 2:
 			strcpy(p,"0010");
-break;
+			break;
 		case 3:
 			strcpy(p,"0011");
-break;
+			break;
    		case 4:
 			strcpy(p,"0100");
-break;
+			break;
 		case 5:
 			strcpy(p,"1011");
-break;
+			break;
 		case 6:
 			strcpy(p,"1100");
-break;
+			break;
 		case 7:
 			strcpy(p,"1101");
-break;
+			break;
 		case 8:
 
 			strcpy(p,"1110");
-break;
+			break;
 		case 9:
 			strcpy(p,"1111");
-break;
+			break;
 	}
 
 
@@ -122,7 +122,7 @@ int main(){
 				a = dum - (dum%(power(10,n-i-1)));
 				a=a/(power(10,n-i-1));
 				dum = dum%(power(10,n-i-1));
-//printf("a = %d dum = %d\n",a,dum);
+
 				i++;
 
 				def(a);
