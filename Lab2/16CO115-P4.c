@@ -141,7 +141,7 @@ int main(){
 				def(a);
 				printf("%s",p);
 			}
-			printf("\nSince they ain't compliment of each other... BCD is not self-complimentary\n");
+			printf("\nSince they are not compliment of each other... BCD is not self-complimentary\n");
 			break;
 		case 2:
 			i=0;
